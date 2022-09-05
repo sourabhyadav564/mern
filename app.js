@@ -29,6 +29,7 @@ app.get('/about', middleware, (req, res) => {
     res.send(`Hello World!`);
 });
 app.get('/contact', (req, res) => {
+    // res.cookie('contact', "middle");
     res.send(`Hello World!`);
 });
 app.get('/signin', (req, res) => {
